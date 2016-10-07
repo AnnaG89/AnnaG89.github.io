@@ -1,0 +1,177 @@
+/*------------ * GALLERI GUSTAFSSON * ---------------*/
+@font-face{
+    font-family: campton;
+    src: url(campton.otf);
+}
+body{
+    font-family: Century Gothic;
+    border: 50px solid #c0c0c0;
+    margin: 0px auto;
+    height: 100%;
+}
+.wrapper{
+    background: url(../pics/bg1.jpg) no-repeat left center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img.logo{
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+section {
+    width: 60%;
+    margin: 0 auto;
+    color: #5c5c5c;  
+}
+p {
+    font-size: 0.95em;
+    color: #5c5c5c;
+}
+hr{
+    width: 70%;
+    color: #5c5c5c;
+}
+h2{
+    color: #5c5c5c;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+
+.front{
+    background: url(../pics/GG.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      border: none;
+}
+/*--------------- * MENY * ---------------*/
+nav{
+    width: 100%;
+}
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding:0;
+}
+li{
+    font-family: "campton";
+    list-style: none;
+    display: inline; 
+}
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1%;
+    text-align: center;
+}
+a:link{
+    color: #5c5c5c;
+}
+    a:visited{
+        color: #5c5c5c;
+    }
+    a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    a:active{
+        color: black;
+    }
+@media screen and (max-width: 750px){
+    li{
+        display: block;
+    }
+    a:hover{
+        color: #5c5c5c;
+        text-decoration: none;
+        transition: .5s #5c5c5c;
+        background: rgba(65, 65, 65, 0.17);
+    }
+}
+/*--------------- * START * ---------------*/
+img.start{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*--------------- * KONSTNÄRER & UTSTÄLLNINGAR* ---------------*/
+img{
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+.float-left{
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+h4{
+    color: #5c5c5c;
+    font-weight: lighter;
+    font-size: 1.2em;
+   
+}
+@media screen and (max-width: 750px){
+    .float-left{
+        display: block;
+        float: none;
+        text-align:center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*--------------- * KONTAKT *---------------*/
+p.rubrik{
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    line-height: 0px;
+    color: #5c5c5c;
+}
+iframe{
+    width: 40%;
+    height: 300px;
+    float: right;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 750px){
+    iframe{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}
+/*--------------- * FOOTER * ---------------*/
+footer{
+    text-align: center;
+}
+p.footer{
+    text-align: center;
+}
+form{
+    color: #5c5c5c;
+    font-size: 0.95em;
+    text-align: left;
+    display: inline-block;
+}
+input{
+    color: #5c5c5c;
+    font: "campton";
+}
